@@ -71,5 +71,47 @@ $ git status
 
 ```
 $ git log
+$ git log == one line
+```
+
+
+
+### 리모트 연결하기
+
+```
+$ git remote add <name><URL>
+
+#리모트 삭제하기
+$ git remote remove <name>
+
+# 리모트 이름 바꾸기
+$ git remote rename <old-name> <new-name>
+
+```
+
+
+
+### 리모트에 PUSH 하기
+
+```
+$ git push <name> <branch>
+```
+
+
+
+## 리모트에서 최초 CLONE 받기
+
+리모트 리포 내용을 그대로 복제
+
+```
+$ git clone <URL>
+```
+
+
+
+### 리모트에서 pull 하기
+
+```
+리모트에서 다운로드 하기
 ```
 
